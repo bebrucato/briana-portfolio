@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+body {
+    background-image: url("../images/updateimg.jpg");
+}
+
+
+a {
+    color:rgb(41, 35, 35);
+}
+
+.about-me {
+    color:rgb(51,51,51);
+    text-shadow: 2px 2px rgb(192,192,192);
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 20px;
+}
+
+.about-text {
+    color:rgb(51,51,51);
+    text-shadow: .5px .5px rgb(192,192,192);
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    height: 100%;
+}
+
+.card {
+    max-height: 500px;
+    max-width: 400px;
+    overflow: none;
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.card-title {
+    color:rgb(51,51,51);
+    text-shadow: 1px 1px rgb(192,192,192);
+    font-weight: 700;
+    padding: 5px;    
+}
+
+.writings {
+    max-width: 250px;
+    max-height: 300px;
+}
+
+
+.contact-info {
+    margin-left: 24%;
+}
+
+.contact-info h2 {
+    color:rgb(51,51,51);
+    text-shadow: .5px .5px rgb(192,192,192);
+}
+
+.location, .phone, .email, .links {
+    margin: 5%;
+    background-color: rgb(15, 15, 15);
+    padding-bottom: 5%;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+.burb {
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.link, .git{
+    max-width: 250px;
+    max-height: 250px;
+    align-items: center;
+}
+
+.contact-info a {
+    color:rgb(255,255,255);
+    font-size: 150%;
+    margin-left: 24%;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 10%;
+}
+
+.intro {
+    background-color: black;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.leo {
+    max-height: 350px;
+    max-width: 350px;
+    border-radius: 50%;
+    filter: contrast(120%); 
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.project-header {
+    font-size: 250%;
+    color:rgb(51,51,51);
+    text-shadow: 1px 1px rgb(192,192,192);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.quill, .comp {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%; 
+    margin-left: 54px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nbar {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.nav-item {
+    padding-left: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgb(51,51,51);
+    text-shadow: 1px 1px rgb(192,192,192);
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.nav-logo {
+    text-align: left;
+    font-size: 200%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    margin-top: 5px;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    color: #fcedd8;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939, 
+              30px 30px 0px #c11a2b, 
+              35px 35px 0px #c11a2b, 
+              40px 40px 0px #c11a2b, 
+              45px 45px 0px #c11a2b;
+}
+
+.marble {
+    background-image: url(https://cdn-0.idownloadblog.com/wp-content/uploads/2016/03/Black-Home-Screen-By-Jason-Zigrino.png);
+    max-height: 100%;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.resume {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 130%;
+        color:rgb(161, 147, 64);
+        text-align: center;
+        text-shadow: 1px 1px black;
+}
+    
+.res-pic {
+        max-height: 400px;
+        max-width: 400px;
+        margin-left: 32%;
+        border-radius: 5%;
+        border-style: groove 5px;
+}
+
+.tdf {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    max-height: fit-content;
+    background-color: #161616;
+    color: lightgrey;
+    text-shadow: lightslategrey 2px;
+}
+
+.tdf-text {
+    color: lightgrey;
+    text-shadow: lightslategrey 2px;
+}
+
+.resume {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 130%;
+        color:rgb(161, 147, 64);
+        text-align: center;
+        text-shadow: 1px 1px black;
+}
+    
+.res-pic {
+        max-height: 400px;
+        max-width: 400px;
+        margin-left: 32%;
+        border-radius: 5%;
+        border-style: groove 5px;
+}
+
+@media only screen and (min-width: 768px) {
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-12 {width: 100%;}
+        body {
+            max-width: 100%;
+        }
+      }
+    
+@media only screen and (max-width: 600px)  {
+     body {
+        width: 100%; 
+    }
+
+    img, .about-me, .project-header, .intro{
+        display: flex;
+        flex-wrap: wrap;
+        width: 33%; 
+    }
+    
+    .comp, .quill, .leo, .burb, .link, .git, .location, .links, .phone, .email, a{
+        width: 75%;
+    }
+    .container {
+    width: 100%;
+    }
+    
+    .card {
+        overflow: scroll;
+    }
+    }
